@@ -22,6 +22,10 @@ Assim como um consumidor (Client) em uma Console Application.
 
 Demonstra como utilizar tipos complexos, assim como tipos customizados.
 
+## [HttpClientFactory](./HttpClientFactory)
+
+Demonstra como integrar com **gRPC client factory**. Assim como **hosted services**.
+
 ---
 Para mais exemplos veja o repositório [grpc-dotnet].
 

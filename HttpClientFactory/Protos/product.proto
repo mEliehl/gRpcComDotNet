@@ -1,0 +1,45 @@
+
+syntax = "proto3";
+import "customTypes.proto";
+import "google/protobuf/timestamp.proto";
+import "google/protobuf/empty.proto";
+
+option csharp_namespace = "Server";
+
+package product;
+
+// The product service definition.
+service Product {
+  // Create a new product.
+  rpc Create (CreateProductRequest) returns (CreateProductResponse);
+  rpc Get (google.protobuf.Empty) returns (ProductsResponse);
+}
+
+// The request message to create a new product.
+message CreateProductRequest {
+  string name = 1;
+  string sku = 2;
+  customTypes.Decimal price = 3;
+}
+
+// The response message of new product created.
+message CreateProductResponse {
+  string id = 1;
+  google.protobuf.Timestamp createdAt = 2;
+}
+
+// The request message of retrieve product.
+message ProductResponse
+{
+  string id = 1;
+  google.protobuf.Timestamp createdAt = 2;
+  string name = 3;
+  string sku = 4;
+  customTypes.Decimal price = 5;
+}
+
+// The request message of retrieve all products.
+message ProductsResponse
+{
+  repeated ProductResponse products = 1;
+}
