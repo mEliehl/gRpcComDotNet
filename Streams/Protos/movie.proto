@@ -1,0 +1,17 @@
+syntax = "proto3";
+import "google/protobuf/empty.proto";
+
+option csharp_namespace = "Server";
+
+package movies;
+
+// The greeting service definition.
+service Movie {
+  // Sends a greeting
+  rpc StarWarsIntro (google.protobuf.Empty) returns (stream ScenesResponse);
+}
+
+// The response message containing the greetings.
+message ScenesResponse {
+  string frame = 1;
+}

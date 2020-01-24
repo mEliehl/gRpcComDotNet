@@ -22,6 +22,10 @@ Assim como um consumidor (Client) em uma Console Application.
 
 Demonstra como utilizar tipos complexos, assim como tipos customizados.
 
+## [Streams](./Streams)
+
+Demonstra como criar um **streaming** do servidor gRPC e consumir ele em uma console application.
+
 ## [HttpClientFactory](./HttpClientFactory)
 
 Demonstra como integrar com **gRPC client factory**. Assim como **hosted services**.
