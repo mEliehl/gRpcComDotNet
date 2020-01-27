@@ -40,4 +40,4 @@ Demonstra como autenticar um serviço utilizando **Identity Server**. Assim como
 
 Para mais exemplos veja o repositório [grpc-dotnet].
 
-[grpc-dotnet]: https://github.com/grpc/grpc-dotnet
+[grpc-dotnet]: https://github.com/grpc/grpc-dotnet/tree/master/examples 
