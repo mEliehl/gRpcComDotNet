@@ -30,7 +30,14 @@ Demonstra como criar um **streaming** do servidor gRPC e consumir ele em uma con
 
 Demonstra como integrar com **gRPC client factory**. Assim como **hosted services**.
 
+
+## [IdentityServer](./IdentityServer)
+
+Demonstra como autenticar um serviço utilizando **Identity Server**. Assim como a utilização de  **Intercepts**.
+
+
 ---
+
 Para mais exemplos veja o repositório [grpc-dotnet].
 
 [grpc-dotnet]: https://github.com/grpc/grpc-dotnet
