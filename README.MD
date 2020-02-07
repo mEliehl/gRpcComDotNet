@@ -6,7 +6,7 @@ Estes exemplos foram demonstrados no meetup .Net na [Dextra].
 
 [Dextra]: https://dextra.com.br
 
-[Link do Slide](https://www.linkfuturodoslide.com)
+[Link do Slide](https://docs.google.com/presentation/d/1zeENgmprmMV127T8p8XNnZaIvfnsO-FlRVSa4lxohaE/edit?usp=sharing)
 
 Todos os exemplos foram escritos utilizando a versão 3.1 do .Net Core.
 
